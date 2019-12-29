@@ -1,0 +1,450 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: auto;
+	width: 88%;
+}
+
+h1{
+	font-family: 'comic sans ms';
+	font-size: 110px;
+	font-style: oblique;
+}
+
+h2{
+	font-size: 42px;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+h3{
+	font-size: 32px;
+}
+
+h4{
+	font-size: 22px;
+}
+
+h5{
+	font-size: 18px;
+	margin: 10px 0 0 0;
+}
+
+ul{
+	font-size: 18px;
+	text-align: justify;
+}
+
+a{
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+	target-new: tab;
+}
+
+p{
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+label {
+	font-size: 22px;
+	font-family: 'comic sans ms';
+}
+
+#container{
+	margin: auto;
+}
+
+.login{
+	padding: 90px 0px 300px 0px;
+	text-transform: uppercase;
+	background: url("pic/web_4.png");
+	background-size: 2200px 900px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.login h1{
+	font-size: 130px;
+}
+
+.login table {
+	margin: auto;
+}
+
+.loginText{
+	text-align: center;
+	padding: 50px 0px 30px 0px;
+}
+
+.loginBtn{
+	margin: auto;
+}
+
+.logButton {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size: 18px;
+	font-family: 'comic sans ms';
+	padding:16px 55px;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+.logButton:hover {
+	background-color:#5cbf2a;
+}
+
+.logButton:active {
+	position:relative;
+	top:1px;
+}
+
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	padding-top: 120px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 25%; /* Could be more or less, depending on screen size */
+}
+
+.modal table{
+	margin: auto;
+	padding-top: 15px;
+}
+
+.modal-label{
+	font-size: 35px;
+	text-transform: uppercase;
+	padding-left: 132px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px 20px;
+	margin: 14px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-family: 'comic sans ms';
+}
+
+.container {
+	padding: 16px;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+.logButton {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size: 18px;
+	font-family: 'comic sans ms';
+	padding:16px 55px;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+.logButton:hover {
+	background-color:#5cbf2a;
+}
+
+.logButton:active {
+	position:relative;
+	top:1px;
+}
+
+.logButton2 {
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'comic sans ms';
+	font-size:17px;
+	padding:12px 30px;
+	text-decoration:none;
+}
+.cancelButton:hover {
+	background-color:#5cbf2a;
+}
+.logButton2:active {
+	position:relative;
+	top:1px;
+}
+
+.cancelButton {
+	background-color:#ff0000;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	border:2px solid #ab1919;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'comic sans ms';
+	font-size:17px;
+	padding:12px 30px;
+	text-decoration:none;
+}
+.cancelButton:hover {
+	background-color:#bd3131;
+}
+.cancelButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.header{
+	text-align:center;
+	padding: 30px 0px 80px 0px;
+	background: url("pic/web_1.png");
+	background-size: 1800px 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.intro{
+	font-family: 'comic sans ms';
+	padding: 50px 0 7px 7px;
+	background: url("pic/web_2.png");
+	background-size: 800px 650px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.intro table {
+	text-align: justify;
+	margin: 0 15px 0 15px;
+}
+
+.chapter_1{
+	font-family: 'comic sans ms';
+	background: url("pic/web_3.png");
+	background-size: 1400px 550px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #F7F7F7;
+	padding: 30px 0 7px 7px;
+}
+
+.chapter_1 table{
+	margin: 0 15px 0 15px;
+	font-size: 18px;
+	border: 1px solid black;
+}
+
+.chapter_1 td{
+	border: 1px solid black;
+}
+
+.chapter_1 tr{
+	border: 1px solid black;
+}
+
+.chapter_2{
+	font-family: 'comic sans ms';
+	padding: 30px 7px 7px 7px;
+	background: url("pic/web_4.png");
+	background-size: 1400px 650px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.chapter_2 table{
+	margin: 0 15px 0 15px;
+	font-size: 18px;
+	border: 1px solid black;
+}
+
+.chapter_2 td{
+	border: 1px solid black;
+}
+
+.chapter_2 tr{
+	border: 1px solid black;
+}
+
+.chapter_3{
+	font-family: 'comic sans ms';
+	background: url("pic/web_6.png");
+	background-size: 1000px 1550px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #F7F7F7;
+	padding: 30px 0 7px 7px;
+}
+
+.chapter_3 table{
+	margin: 0 15px 0 15px;
+	font-size: 18px;
+	border: 1px solid black;
+}
+
+.chapter_3 td{
+	border: 1px solid black;
+}
+
+.chapter_3 tr{
+	border: 1px solid black;
+}
+
+.editor{
+	font-family: 'comic sans ms';
+	padding: 7px 0 15px 7px;
+	padding-bottom: 100px;
+	background: url("pic/web_5.png");
+	background-size: 1200px 450px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.editor table{
+	margin: auto;
+	font-size: 18px;
+	text-align: center;
+}
+
+.editor img {
+	border-radius: 50%;
+}
+
+.footer{
+	position: fixed;
+	font-family: 'comic sans ms';
+	text-align: center;
+	background-color: #468B28;
+	color: #FFFFFF;
+	height: 45px;
+	bottom: 0;
+	width: 88%;
+	border-radius: 10px;
+	border: solid 3px #036D23;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 2px 2px 3px #000000;
+}
+
+#menu-bar {
+/*  width: 90%;*/
+  margin: 0px 0px 0px 0px;
+  padding: 10px 0px 0px 20px;
+  height: 55px;
+  line-height: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: 0px 0px 0px #666666;
+  -webkit-box-shadow: 0px 0px 0px #666666;
+  -moz-box-shadow: 0px 0px 0px #666666;
+  background: #468B28;
+  border: solid 3px #036D23;
+/*
+  position:relative;
+  z-index:999;
+*/
+}
+
+#menu-bar li {
+  margin: 0px 0px 10px 0px;
+  padding: 0px 20px 0px 20px;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+
+#menu-bar a {
+  font-weight: bold;
+  font-family: 'comic sans ms';
+  font-style: normal;
+  font-size: 20px;
+  color: #E7E5E5;
+  text-decoration: none;
+  display: block;
+  padding: 10px px 6px 20px;
+  margin: 0;
+  margin-bottom: 6px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+#menu-bar li ul li a {
+  margin: 0;
+}
+
+.menu-logout{
+	font-family: 'comic sans ms';
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.menu-user{
+	font-family: 'comic sans ms';
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 2px 2px 3px #000000;
+}
+
+.menu-sticky #menu-bar{
+	position: fixed;
+	top: 0px;
+	width: 86.8%;
+	z-index: auto;
+}
+
+
